@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95FF96701E949ACE00895F5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FF966F1E949ACE00895F5B /* AppDelegate.swift */; };
+		95FF96721E949ACE00895F5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FF96711E949ACE00895F5B /* ViewController.swift */; };
+		95FF96751E949ACE00895F5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95FF96731E949ACE00895F5B /* Main.storyboard */; };
+		95FF96771E949ACE00895F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95FF96761E949ACE00895F5B /* Assets.xcassets */; };
+		95FF967A1E949ACE00895F5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95FF96781E949ACE00895F5B /* LaunchScreen.storyboard */; };
+		95FF96851E949ACE00895F5B /* FugaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FF96841E949ACE00895F5B /* FugaTests.swift */; };
+		95FF96921E949C0200895F5B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FF96911E949C0200895F5B /* Alamofire.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95FF96811E949ACE00895F5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95FF96641E949ACE00895F5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95FF966B1E949ACE00895F5B;
+			remoteInfo = Fuga;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95FF966C1E949ACE00895F5B /* Fuga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fuga.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95FF966F1E949ACE00895F5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95FF96711E949ACE00895F5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95FF96741E949ACE00895F5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95FF96761E949ACE00895F5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95FF96791E949ACE00895F5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95FF967B1E949ACE00895F5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95FF96801E949ACE00895F5B /* FugaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FugaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95FF96841E949ACE00895F5B /* FugaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FugaTests.swift; sourceTree = "<group>"; };
+		95FF96861E949ACE00895F5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95FF96911E949C0200895F5B /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95FF96691E949ACE00895F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95FF96921E949C0200895F5B /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95FF967D1E949ACE00895F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95FF96631E949ACE00895F5B = {
+			isa = PBXGroup;
+			children = (
+				95FF966E1E949ACE00895F5B /* Fuga */,
+				95FF96831E949ACE00895F5B /* FugaTests */,
+				95FF966D1E949ACE00895F5B /* Products */,
+				95FF96901E949C0200895F5B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95FF966D1E949ACE00895F5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95FF966C1E949ACE00895F5B /* Fuga.app */,
+				95FF96801E949ACE00895F5B /* FugaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95FF966E1E949ACE00895F5B /* Fuga */ = {
+			isa = PBXGroup;
+			children = (
+				95FF966F1E949ACE00895F5B /* AppDelegate.swift */,
+				95FF96711E949ACE00895F5B /* ViewController.swift */,
+				95FF96731E949ACE00895F5B /* Main.storyboard */,
+				95FF96761E949ACE00895F5B /* Assets.xcassets */,
+				95FF96781E949ACE00895F5B /* LaunchScreen.storyboard */,
+				95FF967B1E949ACE00895F5B /* Info.plist */,
+			);
+			path = Fuga;
+			sourceTree = "<group>";
+		};
+		95FF96831E949ACE00895F5B /* FugaTests */ = {
+			isa = PBXGroup;
+			children = (
+				95FF96841E949ACE00895F5B /* FugaTests.swift */,
+				95FF96861E949ACE00895F5B /* Info.plist */,
+			);
+			path = FugaTests;
+			sourceTree = "<group>";
+		};
+		95FF96901E949C0200895F5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95FF96911E949C0200895F5B /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95FF966B1E949ACE00895F5B /* Fuga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95FF96891E949ACE00895F5B /* Build configuration list for PBXNativeTarget "Fuga" */;
+			buildPhases = (
+				95FF96681E949ACE00895F5B /* Sources */,
+				95FF96691E949ACE00895F5B /* Frameworks */,
+				95FF966A1E949ACE00895F5B /* Resources */,
+				95FF968F1E949B9100895F5B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fuga;
+			productName = Fuga;
+			productReference = 95FF966C1E949ACE00895F5B /* Fuga.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95FF967F1E949ACE00895F5B /* FugaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95FF968C1E949ACE00895F5B /* Build configuration list for PBXNativeTarget "FugaTests" */;
+			buildPhases = (
+				95FF967C1E949ACE00895F5B /* Sources */,
+				95FF967D1E949ACE00895F5B /* Frameworks */,
+				95FF967E1E949ACE00895F5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95FF96821E949ACE00895F5B /* PBXTargetDependency */,
+			);
+			name = FugaTests;
+			productName = FugaTests;
+			productReference = 95FF96801E949ACE00895F5B /* FugaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95FF96641E949ACE00895F5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = tanaka.kenji;
+				TargetAttributes = {
+					95FF966B1E949ACE00895F5B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K75PB9VKYT;
+						ProvisioningStyle = Automatic;
+					};
+					95FF967F1E949ACE00895F5B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K75PB9VKYT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 95FF966B1E949ACE00895F5B;
+					};
+				};
+			};
+			buildConfigurationList = 95FF96671E949ACE00895F5B /* Build configuration list for PBXProject "Fuga" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95FF96631E949ACE00895F5B;
+			productRefGroup = 95FF966D1E949ACE00895F5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95FF966B1E949ACE00895F5B /* Fuga */,
+				95FF967F1E949ACE00895F5B /* FugaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95FF966A1E949ACE00895F5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95FF967A1E949ACE00895F5B /* LaunchScreen.storyboard in Resources */,
+				95FF96771E949ACE00895F5B /* Assets.xcassets in Resources */,
+				95FF96751E949ACE00895F5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95FF967E1E949ACE00895F5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		95FF968F1E949B9100895F5B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95FF96681E949ACE00895F5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95FF96721E949ACE00895F5B /* ViewController.swift in Sources */,
+				95FF96701E949ACE00895F5B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95FF967C1E949ACE00895F5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95FF96851E949ACE00895F5B /* FugaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95FF96821E949ACE00895F5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95FF966B1E949ACE00895F5B /* Fuga */;
+			targetProxy = 95FF96811E949ACE00895F5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95FF96731E949ACE00895F5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95FF96741E949ACE00895F5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95FF96781E949ACE00895F5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95FF96791E949ACE00895F5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95FF96871E949ACE00895F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95FF96881E949ACE00895F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95FF968A1E949ACE00895F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K75PB9VKYT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Fuga/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktanaka.Fuga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		95FF968B1E949ACE00895F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K75PB9VKYT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Fuga/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktanaka.Fuga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		95FF968D1E949ACE00895F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K75PB9VKYT;
+				INFOPLIST_FILE = FugaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktanaka.FugaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fuga.app/Fuga";
+			};
+			name = Debug;
+		};
+		95FF968E1E949ACE00895F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K75PB9VKYT;
+				INFOPLIST_FILE = FugaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktanaka.FugaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fuga.app/Fuga";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95FF96671E949ACE00895F5B /* Build configuration list for PBXProject "Fuga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95FF96871E949ACE00895F5B /* Debug */,
+				95FF96881E949ACE00895F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95FF96891E949ACE00895F5B /* Build configuration list for PBXNativeTarget "Fuga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95FF968A1E949ACE00895F5B /* Debug */,
+				95FF968B1E949ACE00895F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95FF968C1E949ACE00895F5B /* Build configuration list for PBXNativeTarget "FugaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95FF968D1E949ACE00895F5B /* Debug */,
+				95FF968E1E949ACE00895F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95FF96641E949ACE00895F5B /* Project object */;
+}
